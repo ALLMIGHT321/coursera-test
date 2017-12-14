@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.style 
+{
+	font-family: Times New Roman, Times, serif;
+	background-color: white;
+}
+
+
+h1 
+{
+	size: 32px;
+	font-weight: 900; 
+	text-align: center;
+}
+
+body
+{
+	margin: 5%;
+}
+
+#boxChicken
+{
+	width: 26%;
+	float: left;
+	margin: 40px;
+	border: 2px solid black;
+}
+
+#boxBeef
+{
+	width: 26%;
+	float: left;
+	margin: 40px;
+	border: 2px solid black;	
+}
+
+#boxSushi
+{
+	width: 26%;
+	float: left;
+	margin: 40px;
+	border: 2px solid black;
+}
+
+#chickenTitle
+{
+	position: relative;
+	background-color: #999966; 
+	text-align: center;
+	float: right;
+	size: 28px;
+	font-weight: 900;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	height: 30px;
+	width: 100px;
+	padding-top: 5px;
+}
+
+#beefTitle
+{
+	position: relative;
+	background-color: #ff0000;
+	text-align: center;
+	float: right;
+	size: 28px;
+	font-weight: 900;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	height: 30px;
+	width: 100px;
+	padding-top: 5px;
+}
+
+#sushiTitle
+{
+	position: relative;
+	background-color: #ffcc00; 
+	text-align: center;
+	float: right;
+	size: 28px;
+	font-weight: 900;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	height: 30px;
+	width: 100px;
+	padding-top: 5px;
+}
+
+#chickenContent
+{
+	background-color: gray; 
+	padding: 20px;
+}
+
+#beefContent
+{
+	background-color: gray; 
+	padding: 20px;
+}
+
+#sushiContent
+{
+	background-color: gray; 
+	padding: 20px;
+} 
+
+@media (min-width: 992px) 
+{
+	#boxChicken, #boxBeef, #boxSushi
+	{
+		width: 26%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	#boxChicken
+	{
+		width: 48%;
+		margin-right: 2%;
+		margin-left: 0;
+	}
+
+	#boxBeef
+	{
+		width: 48%;
+		margin-right: 0;
+		margin-left: 2%;
+	}
+
+	#boxSushi
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 767px)
+{
+	#boxChicken
+	{
+		width: 100%;
+		margin: 10%;
+	}
+
+	#boxBeef
+	{
+		width: 100%;
+		margin: 10%;
+	}
+
+	#boxSushi
+	{
+		width: 100%;
+		margin: 10%;
+	}
+}
